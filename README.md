@@ -18,7 +18,7 @@ In Windows Terminal, open Settings. That should allow you to edit your `profiles
 The last color scheme should end with a close curly quote (`}`). Add a comma after that, and then enter the Zenburn color scheme definitions so that you have something like the following:
 
 ```json
-,
+},
 {
     "background" : "#3A3A3A",
     "black" : "#1E2320",
