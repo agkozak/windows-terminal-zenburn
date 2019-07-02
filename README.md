@@ -63,4 +63,4 @@ The last color scheme should end with a closing curly brace (`}`). Add a comma a
 }
 ```
 
-Now all you need to do is to pick a Windows Terminal profile to apply a Zenburn color scheme to. In `profiles.json`, find the section that starts with `"profiles" :`. Scroll down, looking at the `"name"` of each profile until you find the one you want. Then go up a little bit and find its `"colorScheme"`. Change its value to `"Zenburn"` for standard, low-contrast Zenburn, or `"High-Contrast Zenburn"` for high-contrast Zenburn. Save `profiles.json`; the changes should apply immediately.
+Now all you need to do is to pick a Windows Terminal profile to apply a Zenburn color scheme to. In `profiles.json`, find the section that starts with `"profiles" :`. Scroll down, looking at the `"name"` of each profile until you find the one you want. Then go up a little bit and find its `"colorScheme"`. Change its value to `"Zenburn"` for standard, low-contrast Zenburn, or `"High-Contrast Zenburn"` for High-Contrast Zenburn. Save `profiles.json`; the changes should apply immediately.
