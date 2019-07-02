@@ -15,7 +15,7 @@
 
 In Windows Terminal, open Settings. That should allow you to edit your `profiles.json`. At the bottom of that file, a number of color schemes are defined. You will want to add Zenburn and High Contrast Zenburn to them.
 
-The last color scheme should end with a close curly quote (`}`). Add a comma after that, and then enter the Zenburn color scheme definitions so that you have something like the following:
+The last color scheme should end with a closing curly brace (`}`). Add a comma after that, and then enter the Zenburn color scheme definitions so that you have something like the following:
 
 ```json
 },
