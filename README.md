@@ -7,7 +7,7 @@
 
 ![Zenburn (Low-Contrast)](img/zenburn.png)
 
-## High-Constrast Zenburn
+## High-Contrast Zenburn
 
 ![High-Contrast Zenburn](img/high_contrast_zenburn.png)
 
