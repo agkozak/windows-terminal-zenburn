@@ -28,6 +28,7 @@ You will want to include the Zenburn and High-Contrast Zenburn color schemes bet
 // Add custom color schemes to this array
 "schemes": [
     {
+        "name" : "Zenburn",
         "background" : "#3A3A3A",
         "black" : "#1E2320",
         "blue" : "#506070",
@@ -42,13 +43,13 @@ You will want to include the Zenburn and High-Contrast Zenburn color schemes bet
         "cyan" : "#8CD0D3",
         "foreground" : "#DCDCCC",
         "green" : "#60B48A",
-        "name" : "Zenburn",
         "purple" : "#DC8CC3",
         "red" : "#D78787",
         "white" : "#DCDCCC",
         "yellow" : "#DFAF8F"
     },
     {
+        "name" : "High-Contrast Zenburn",
         "background" : "#1C1C1C",
         "black" : "#1E2320",
         "blue" : "#506070",
@@ -63,7 +64,6 @@ You will want to include the Zenburn and High-Contrast Zenburn color schemes bet
         "cyan" : "#8CD0D3",
         "foreground" : "#DCDCCC",
         "green" : "#60B48A",
-        "name" : "High-Contrast Zenburn",
         "purple" : "#DC8CC3",
         "red" : "#D78787",
         "white" : "#DCDCCC",
