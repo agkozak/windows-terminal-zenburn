@@ -13,19 +13,11 @@
 
 ## Installation
 
-The following instructions are up to date as of Windows Terminal v0.7.3382.0.
+The following instructions are up to date as of Windows Terminal v1.15.2875.0.
 
-In Windows Terminal, open Settings (`Ctrl+,`). That should allow you to edit your `profiles.json`. Near the end of the file you will find the following lines:
-
-```json
-// Add custom color schemes to this array
-"schemes": [],
-```
-
-You will want to include the Zenburn and High-Contrast Zenburn color schemes between those two square brackets, thus:
+In Windows Terminal, open Settings (`Ctrl+,`) and click on "Open JSON file." That should allow you to edit your `settings.json`. Edit the `schemes` array to include the Zenburn and High-Contrast Zenburn color schemes:
 
 ```json
-// Add custom color schemes to this array
 "schemes": [
     {
         "background" : "#3A3A3A",
@@ -72,7 +64,7 @@ You will want to include the Zenburn and High-Contrast Zenburn color schemes bet
 ],
 ```
 
-Now all you need to do is to pick a Windows Terminal profile to apply a Zenburn color scheme to. In `profiles.json`, find the section that starts with `"profiles" :`. Scroll down, looking at the `"name"` of each profile until you find the one you want.  Now you need to specify its color scheme, thus:
+Now all you need to do is to pick a Windows Terminal profile to apply a Zenburn color scheme to. In `settings.json`, find the section that starts with `"profiles" :`. Scroll down, looking at the `"name"` of each profile until you find the one you want.  Now you need to specify its color scheme, thus:
 
 ```json
 {
@@ -84,6 +76,6 @@ Now all you need to do is to pick a Windows Terminal profile to apply a Zenburn 
     "icon" : "C:/Users/agkoz/TerminalIcons/ubuntu-icon.png"
 },
 ```
-Use `"colorScheme" : Zenburn"` for Zenburn, or `"colorScheme" : "High-Contrast Zenburn"` for High-Contrast Zenburn.
+Use `"colorScheme" : "Zenburn"` for Zenburn, or `"colorScheme" : "High-Contrast Zenburn"` for High-Contrast Zenburn.
 
-Save `profiles.json`; the changes should apply immediately.
+Save `settings.json`; the changes should apply immediately.
