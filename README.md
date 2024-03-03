@@ -20,6 +20,7 @@ In Windows Terminal, open Settings (`Ctrl+,`) and click on "Open JSON file." Tha
 ```json
 "schemes": [
     {
+        "name" : "Zenburn",
         "background" : "#3A3A3A",
         "black" : "#1E2320",
         "blue" : "#506070",
@@ -34,13 +35,13 @@ In Windows Terminal, open Settings (`Ctrl+,`) and click on "Open JSON file." Tha
         "cyan" : "#8CD0D3",
         "foreground" : "#DCDCCC",
         "green" : "#60B48A",
-        "name" : "Zenburn",
         "purple" : "#DC8CC3",
         "red" : "#D78787",
         "white" : "#DCDCCC",
         "yellow" : "#DFAF8F"
     },
     {
+        "name" : "High-Contrast Zenburn",
         "background" : "#1C1C1C",
         "black" : "#1E2320",
         "blue" : "#506070",
@@ -55,7 +56,6 @@ In Windows Terminal, open Settings (`Ctrl+,`) and click on "Open JSON file." Tha
         "cyan" : "#8CD0D3",
         "foreground" : "#DCDCCC",
         "green" : "#60B48A",
-        "name" : "High-Contrast Zenburn",
         "purple" : "#DC8CC3",
         "red" : "#D78787",
         "white" : "#DCDCCC",
